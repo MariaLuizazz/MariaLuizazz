@@ -1,4 +1,165 @@
+
 body {
-    font-family: sans-serif;
-    color: aquamarine;
+    background-color: rgb(31, 34, 36);
+    color: rgb(36, 34, 34);
+    font-family: 'Montserrat',sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    text-decoration: underline ;
+    font-weight: 500;
+    color: rgb(35, 121, 136);
+}
+
+h2, h3 {
+    color: rgb(16, 99, 172);
+}
+
+p {
+    line-height: 1.6;
+}
+
+.imagem-formatada {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    box-shadow: 15px 15px 10px cyan;
+    object-fit: cover;
+}
+
+header {
+    background-color: rgb(35, 121, 136);
+    color: white;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: rgb(35, 121, 136);
+    color: white;
+    padding: 10px 0;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.page-section {
+    color: azure;
+    background-color: rgb(35, 32, 32);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 20px;
+    margin-top: 60px;
+}
+.page-section1 {
+    background-size: cover; 
+    background-position: center; 
+    background-image: url(fundo.png);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 20px;
+    margin-top: 60px;
+}
+
+#habilidades {
+    background-color: rgb(220, 232, 245);
+}
+
+#contato {
+    background-color:  rgb(35, 32, 32);
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.sombra{
+    text-shadow:  2px 2px 0 rgba(100, 84, 84, 0.4);
+    text-align: center;
+    margin: 10%;
+}
+
+.sombra2{
+    text-shadow:  2px 2px 0 rgba(74, 244, 249, 0.4);
+    margin: 5%;
+
+}
+
+.social-links a {
+    color: rgb(35, 121, 136);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.social-links a:hover {
+    color: rgb(16, 99, 172);
+    transform: scale(1.1);
+}
+
+.social-links img {
+    transition: transform 0.2s;
+}
+
+.social-links img:hover {
+    transform: rotate(10deg);
+}
+
+/* Contêiner das redes sociais */
+.social-links-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Bloco individual de cada rede social */
+.social-block {
+    width: 150px;
+    background-color: #1f2224;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Estilo ao passar o mouse */
+.social-block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
+}
+
+/* Links dentro do bloco */
+.social-block a {
+    text-decoration: none;
+    color: #239090;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+
+/* Alinhamento das imagens */
+.social-block img {
+    transition: transform 0.2s ease;
+}
+
+.social-block img:hover {
+    transform: rotate(15deg);
 }
