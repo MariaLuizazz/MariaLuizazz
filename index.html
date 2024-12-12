@@ -13,10 +13,11 @@
 </head>
 
 <body>
+    <body class="preto">
     <body style="font-family: 'Montserrat', sans-serif;">
 
     <header class="text-center py-3">
-        <h1>Maria Luiza</h1>
+        <h1 class="nome">Maria Luiza</h1>
     </header>
 
     <main class="container mt-4">
@@ -24,21 +25,23 @@
         <section id="sobre" class="page-section">
             <div class="row align-items-center">
                 <aside class="col-md-6">
-                    <h2 class="sombra2">Sobre Mim</h2>
-                    <p>
-                        Meu nome é Maria Luiza Oliveira de Souza, tenho 20 anos e, em 2024,
-                        iniciei minha graduação em Ciência de Dados e Negócios na ESPM (Escola Superior de
-                        Propaganda e Marketing). Atualmente, estou cursando o segundo semestre,e,
-                        ao longo desses meses, tive a oportunidade de adquirir conhecimentos que jamais 
-                        imaginei.
-                    </p>
-                    <p>
-                        Tenho como objetivo continuar minha jornada na área de tecnologia
-                        aprofundando-me nos diversos campos que o curso oferece. Busco
-                        aprimorar minhas habilidades continuamente, com o sonho de me
-                        tornar uma profissional indispensável e contribuir de forma significativa
-                        para o mercado de trabalho.
-                    </p>
+                    <h1 class="sombra2">Sobre Mim</h1>
+                    <div class="habilidades-container d-flex flex-wrap justify-content-center">
+                        <div class="sobremim-block text-center mx-3">
+                        <p>
+                            Meu nome é Maria Luiza Oliveira de Souza, tenho 20 anos e, em 2024,
+                            iniciei minha graduação em Ciência de Dados e Negócios na ESPM (Escola Superior de
+                            Propaganda e Marketing). Atualmente, estou cursando o segundo semestre,e,
+                            ao longo desses meses, tive a oportunidade de adquirir conhecimentos que jamais 
+                            imaginei.
+                        </p>
+                        <p>
+                            Tenho como objetivo continuar minha jornada na área de tecnologia
+                            aprofundando-me nos diversos campos que o curso oferece. Busco
+                            aprimorar minhas habilidades continuamente, com o sonho de me
+                            tornar uma profissional indispensável e contribuir de forma significativa
+                            para o mercado de trabalho.
+                        </p>
                 </aside>
                 <article class="col-md-6 text-center">
                     <img src="eu.jpeg" alt="Foto minha" class="imagem-formatada">
@@ -48,10 +51,17 @@
 
         
         <section id="habilidades" class="page-section1">
-            <h3 class="text-center, sombra">Minhas Habilidades</h3>
-            <p class="text-center"><b>Hard Skills:</b> MySQL, Tableau Desktop, Tableau Prep Builder, Figma, Excel, Word</p>
-            <p class="text-center"><b>Soft Skills:</b> Comunicação, Liderança, Empatia, Resiliência</p>
+            <div class="habilidades-container d-flex flex-wrap justify-content-center">
+                <div class="habilidades-block text-center mx-3">
+                    <h3>Minhas Habilidades</h3>
+                    <p><b>Hard Skills:</b> MySQL, Tableau Desktop, Tableau Prep Builder, Figma, Excel, Word</p>
+                    <p><b>Soft Skills:</b> Comunicação, Liderança, Empatia, Resiliência</p>
+                    <p><b>Linguagens de Programação:</b> Python</p>
+                    <p><b>Idiomas:</b> Português, Inglês e Espanhol</p>
+                </div>
+            </div>
         </section>
+        
 
         
         <section id="contato" class="page-section">
@@ -80,7 +90,7 @@
         </section>
         
     </main>
-
+    
     <footer class="text-center py-3 mt-5">
         <p>&copy; 2024 Maria Luiza - Todos os direitos reservados.</p>
     </footer>
