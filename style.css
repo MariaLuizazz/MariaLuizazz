@@ -66,7 +66,7 @@ a:hover{
 
 .logo{
     font-size: 2rem;
-    color: #cdcda5;
+    color: #e7ede6;
 
 }
 
@@ -211,9 +211,11 @@ section{
 }
 
 .section_text{
+    margin-left: 0px;
     align-self: center;
     text-align: left;
-    margin-left: -80px;
+    margin-top: 55px;
+    
 }
 
 
@@ -233,6 +235,8 @@ section{
 .title{
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 1.5rem;
+    color: #344f1d;
 }
 
 #social-container{
@@ -257,6 +261,7 @@ section{
     justify-content: center;
     gap: 1rem;
 
+
 }
 
 .btn {
@@ -267,17 +272,28 @@ section{
     border-radius: 1rem;
     box-shadow: 20px 20px 15px rgba(0,0,0,0.3);
 
+
 }
+
+.btn-color-2 {
+    color: white;
+    background: #c36800;   /* <-- escolha a cor que você quiser */
+    border: none;
+
+}
+
 
 .btn-color-1,
 .btn-color-2:hover{
     cursor: pointer;
+    color:white;
+
 }
 
 .btn-color-1,
 .btn-color-2:hover{
     background:#293e17;
-    color:rgb(238, 232, 232);
+    color:rgb(255, 255, 255);
 }    
 
 .btn-color-1:hover{
@@ -285,12 +301,14 @@ section{
 }
 
 .btn-color-3{
-    border:rgb(255, 255, 255) 0.1rem solid;
+    border:rgb(249, 245, 245) 0.1rem solid;
 }
 
 .btn-container{
     gap:1rem;
 }
+
+
 
 
 .eu{
@@ -398,7 +416,7 @@ article .icon {
 
 .color-container {
   border-color: rgb(74, 141, 45);
-  background: rgb(243, 229, 214);
+  background: rgb(252, 250, 248);
 }
 
 .project-img {
@@ -414,7 +432,7 @@ article .icon {
 
 .project-btn {
   color: black;
-  border-color: rgb(240, 204, 161);
+  border-color: rgb(252, 250, 248);
 }
 
 /* CONTACT */
@@ -424,8 +442,6 @@ article .icon {
     min-height: unset;
     height: auto;
     margin-top: 3900px;
-
-
 
 }
 
@@ -474,3 +490,10 @@ footer p {
   text-align: center;
 
 }
+
+.btn.project-btn {
+    color: #f5f5f4 !important;   /* cor normal do texto */
+    border: white;
+}
+
+
