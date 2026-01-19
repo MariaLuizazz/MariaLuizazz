@@ -1,12 +1,14 @@
 ## Olá, me chamo Maria Luiza! 🌸
 
-Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com o objetivo de apresentar meus projetos, habilidades e trajetória na área de Ciência de Dados e Negócios, ele representa minha evolução prática e meu compromisso em construir uma base técnica sólida para atuar profissionalmente na área.
+Este repositório contém o código-fonte do meu portfólio pessoal, criado para apresentar de forma clara e objetiva meus **projetos, habilidades técnicas e evolução** na área de **Ciência de Dados e Negócios**.
 
-O site foi construído utilizando **HTML, CSS e JavaScript**, com foco em um design limpo, responsivo e organizado, servindo como um espaço central para:
+Este portfólio representa meu compromisso com o desenvolvimento técnico e funciona como uma **vitrine profissional** para demonstrar, na prática, minha capacidade de transformar conhecimento em projetos reais.
+
+O site foi desenvolvido utilizando **HTML, CSS e JavaScript**, com foco em um design limpo, organizado e responsivo, servindo como um espaço central para:
 
 * Apresentar meus principais projetos acadêmicos e pessoais
 * Mostrar minhas habilidades técnicas e ferramentas que utilizo
-* Contar um pouco sobre minha trajetória e objetivos profissionais
+* Compartilhar minha trajetória e objetivos profissionais
 * Facilitar o contato e o acesso ao meu currículo
 
 
